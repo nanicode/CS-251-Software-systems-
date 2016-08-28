@@ -1,0 +1,4 @@
+ps -ef | grep <name_of_the_script>
+kill -9 <pid_of_your_running_script>
+
+http://linuxcommand.org/lts0080.php
