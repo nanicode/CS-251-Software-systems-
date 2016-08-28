@@ -1,0 +1,64 @@
+.click_it{
+	font-style: italic;
+	font-size: 25px;
+	color: black;
+	background-color: #c2a2a3;
+	text-align: left;
+	width: 80%;
+	padding: 1%;
+	margin-left: 10%;
+	margin-top: 1%;
+	/*margin-top: 5%; */
+	border : none;
+	outline: none;
+	transition-duration: 0.5s;
+}
+
+.click_it:hover{
+	background-color: skyblue;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.first{
+	margin-top: 10%;
+}
+
+.fist{
+	margin-top: 1%;
+}
+
+.not_visible{
+	/*border: 3px solid red;*/
+	display: none;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.visible{
+	/*border: 2px solid black;*/
+	display: none;
+	width: 80%;
+	margin-left: 10%;
+	display: block;
+}
+
+p{
+	font-size: 20px;
+}
+
+div{
+	overflow: auto;
+}
+ul{
+	/*clear: right;*/
+	position: relative;
+	top: -60%;
+}
+img{
+	position: relative;
+	left: 80%;
+}
+.bgcolor{
+	background-color: green;
+}

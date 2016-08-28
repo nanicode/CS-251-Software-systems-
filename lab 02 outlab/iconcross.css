@@ -1,0 +1,48 @@
+.navbar-nav > li > a{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+
+  .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 0;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+
+.social_links>a{
+  padding: 10px;
+}
+
+.navbar-default .navbar-nav  .active  a{
+  /*background-color : red;*/
+  /*color:yellow;*/
+}
+
+.navbar-toggle.collapsed > .top-bar {
+    transform: rotate(0);      
+}
+.navbar-toggle.collapsed > .middle-bar {
+  opacity: 1;
+}
+.navbar-toggle.collapsed > .bottom-bar {
+  transform: rotate(0);
+}
+
+
+    

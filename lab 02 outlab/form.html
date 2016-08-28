@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="iconcross.css">
+<script src="form.js"></script>
+<title>JS Form</title>
+<style>
+input[type=text], select,input[type=password],input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit]:hover {
+    background-color: black;	
+}
+
+div.formdiv{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span> 
+     </button>
+      <a class="navbar-brand" href="#" style="cursor:default;padding-top:15px;padding-bottom:15px;font-size:20px;">Anirudh</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+        <li><a href="accordion.html">Accordion</a></li>
+        <li class="active"><a href="form.html">Form</a></li>
+        <li><a href="inkscape.html">Task D</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="interests.html">Interests</a></li>
+      <li><a href="timetable.html">Time Table</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<h3>Form to be submitted</h3>
+<div class="formdiv">
+
+    <form action="https://www.cse.iitb.ac.in/~sharat/php/example/form.php" method="Post" onsubmit="return myFunction();">
+        <label for="text">Username</label><br>
+        <input type="text" id="text" name="text" minlength="6" maxlength="50" onblur="textfunction();" onfocus="foctext();"><br>
+        <p style="color:red;" id="flag"></p>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="mail" name="email" onblur="validateEmail();" onfocus="focmail();"><br>
+        <p style="color:red;" id="emailp"></p>        
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="pass" minlength="8" maxlength="20" onblur="passfunction();" onfocus="focpass();"><br> 
+        <p style="color:red;" id="demo1"></p>       
+        
+        <label for="password">Confirm password</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" minlength="8" 
+        														maxlength="20" onblur="confirmfunction();" onfocus="foc_confirm();"><br>
+        <p style="color:red;" id="demo2"></p>
+        
+        <label for="gender">Gender</label><br>
+        <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+        </select>
+  
+        <button type="submit" name="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
+</div>
+
+
+</body>
+</html>
