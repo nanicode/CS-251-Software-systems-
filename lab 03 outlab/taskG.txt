@@ -1,0 +1,3 @@
+-> Magikarp								#Pokemon caught
+
+-> ls -lt | tac | awk '{print $5}'   	#G2

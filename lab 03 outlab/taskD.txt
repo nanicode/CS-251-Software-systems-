@@ -1,0 +1,5 @@
+-> Squirtle   #Pokemon caught
+
+-> Username:alpha Password:omega 
+
+-> curl --request POST 'https://www.cse.iitb.ac.in/~sharat/current/cs251/Assign/Lab03/support/verify.php' \--data 	 'username=alpha&password=omega&submit=Login'

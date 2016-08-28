@@ -1,0 +1,10 @@
+ROTOM                                           => Pokemon captured
+
+file -bi * | sort | uniq -c                     => used to find all mime types
+
+20  application/gzip; charset=binary
+28  image/jpeg; charset=binary
+109 text/html; charset=us-ascii                 => different mime types in Kiev and their number
+2   text/plain; charset=us-ascii
+11  text/x-c; charset=us-ascii
+      

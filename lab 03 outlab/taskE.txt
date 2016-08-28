@@ -1,0 +1,11 @@
+-> cf3c122f1dabdc0fc4e1c37a25556bc8							#first line of Bulbasaur
+
+-> f24109a62a0422577119abeb0db4f801							#first line of Slowpoke
+
+-> 10.7.161.53												#IP adress of laptop Bulbasaur
+
+-> 10.7.161.65												#IP address of laptop Slowpoke
+
+-> nc -v  31337 -l < Bulbasaur > Slowpoke					#command on laptop Bulbasaur
+
+-> nc -v  10.7.161.53 31337 > Bulbasaur < Slowpoke			#command on laptop Slowpoke

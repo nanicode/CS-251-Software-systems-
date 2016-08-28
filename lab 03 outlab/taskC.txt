@@ -1,0 +1,15 @@
+-> MAGIKARP
+
+-> rm -rf ./*/                                                               -remove all sub-directories
+   
+-> find . -name 'A*' | xargs rm    (or)   ls | grep "^A.*" |xargs rm
+
+-> ls | grep "^[0-9]$|^1[0-9]$|^20$" | xargs rm                              -remove all other unnecessary files
+
+-> find . -name "*.jpg" |xargs rm   (or) ls | grep ".*jpg$" | xargs rm
+
+-> ls |grep -v ".html" | xargs cat > ultraball.html                          -to not include ultraball.html if already present or created
+
+
+
+

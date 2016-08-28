@@ -1,0 +1,8 @@
+-> Hawlucha #Pokemon caught
+
+-> sed -i -e 's/flying/255 0 0/g' -e 's/fighting/255 0 0/g' corruptedPokémon.ppm  																								#H1
+
+-> sed -i -e 's/Sp.A:1[0-9][0-9]/255 8 153/g' -e 's/Atk:1[0-9][0-9]/255 8 153/g' -e 's/Sp.D:1[0-mo9][0-9]/255 8 153/g' -e 's/Def:1[0-9][0-9]/255 8 153/g' corruptedPokémon.ppm 	#H2
+
+-> sed -i -e 's|HP-||g' -e 's|/[1-9][0-9][0-9]||g' -e 's|/[1-9][0-9]||g' -e 's|/[0-9]||g'  corruptedPokémon.ppm  #H3
+	

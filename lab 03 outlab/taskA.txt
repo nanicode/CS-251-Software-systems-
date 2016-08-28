@@ -1,0 +1,5 @@
+->  Tokyo  																				#Name of city
+ 
+-> This particular command can be directly used from home directory						#Earth was present in the home directory
+
+-> find ./Earth/Asia/Japan/ ! -name ^[tT] -size +50000c -size -100000c -exec more {} \;		

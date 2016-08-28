@@ -1,0 +1,5 @@
+-> GRASS Sceptile                                                            => Pokemon type and name
+ 
+-> Earth/Asia/China                                                          => Path from parent Earth
+
+-> more Shanghai | grep -i "grass\|water" | grep -E "\s[^bmBM]{6,10}$"       => Command using grep
