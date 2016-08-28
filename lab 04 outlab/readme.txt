@@ -1,0 +1,62 @@
+Anirudh reddy - 150050070 -100%
+
+Sandeep kumar - 150050082 -100%
+
+Lohith kumar - 150050088  -100%
+
+Honour codes:
+	Anirudh- I pledge on my honour that I have not given or received any unauthorized assistance on this or any of the previous tasks.
+	Sandeep- I pledge on my honour that I have not given or received any unauthorized assistance on this or any of the previous tasks.
+	Lohith - I pledge on my honour that I have not given or received any unauthorized assistance on this or any of the previous tasks.
+
+Task_A1:
+	commit message- "inpuut taken and stored - first commit"
+	commit number- 682b33b0e0518516aa45382e0ee4f00c64f495fa
+
+Task_A2(i):
+	commit messagge- "finished euclidean file"
+	commit number- aef11aaea1122f1e6acecd460990e37bcfaa09d3
+
+Task_A2(ii):
+	commit message- "Pearson based sorting finished"
+	commit number- 34c5f23f0c623e190fcb9cc0c24050d135dbfbe6
+
+Task_A2(iii):
+	commit message- "Pearson based sorting finished"
+	commit number- 34c5f23f0c623e190fcb9cc0c24050d135dbfbe6
+		This is same as the above because the commit master branch's tip was pointing to is the ancestor of pearson branch.So merging
+	just fast forwards master branch's tip.
+
+Task_A3:
+		Euclidean distances are used when the actual differences are important.But when we want to extract the similarity between data, 
+	is wiser to use pearson coefficient than euclidean distance.Also pearson coefficient is robust to multiplication with a constant or 
+	addition of a constant(to all the data values).
+
+
+Task_B1:
+	commit message- "First commit"
+	commit number- 3abbe6a770eecb1dcbd3aa6a29fd2920d76dd011
+
+Task_B2:
+		No, it doesn't work for complex numbers because sum function takes only list of integers or floats as arguments so whenever we
+	try to use the sum function for types other than integers,float such as complex numbers,strings etc it gives TypeError:unsupported operand type.
+
+Task_B3:
+		We got a merge conflict because same region of the file was commited in both the master and the representation branches after
+	branching. Once we resolved the conflict both the functions are working fine
+
+Task_B4:
+		Yes, there will be a conflict because same region of the file was commited in both the master and the electricity! branch after 
+	branching.So git fails to merge the branches and asks the user to resolve the conflict manually
+
+	We are representing complexnumber as a+j.b
+
+citations: none
+
+reflection essay:
+------------------
+		Using git was very interesting. The fact that changes the files in the working diectory whenever we checkout commits or branches 
+	is very intriguing.We also used 'commit amend' option to overwrite the latest commit.
+
+		We realised that we need to use 'python3 filename.py' and not 'python filename.py'.Very unfortunately, we were late. We used
+	'python filename.py' during inlab.Please consider this.
